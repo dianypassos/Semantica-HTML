@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <!--cabeçalho da página-->
+    <header>
+        <!-- nav tag para menu de navegação-->
+        <nav>
+            <!-- ul é um container de lista não ordenada-->
+            <ul>
+                <!--tag a é uma tag de link-->
+                <li> <a href="https://www.tripadvisor.com.br/Tourism-g303461-Porto_de_Galinhas_Ipojuca_State_of_Pernambuco-Vacations.html"target="_blank">Faça sua reserva</a></li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Saiba Mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--conteudo principal do site-->
+    <main>
+         <!--Define uma seção temática dentro de uma página.-->
+        <section>
+            <h1>Viagens Vai na Web</h1>
+             <!-- é usada para incorporar outro documento HTML dentro do seu documento HTML -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DvdHlRrsBoo?si=Jq44JWKoh-fd_U5t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- seção de tipos de viagens -->
+         <section>
+            <!-- a tag div deve ser usada com sabedoria, ela é usada para divisões, pois não tem valor semântico -->
+            <div>
+                <h2>Viagens Internacionais</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, non recusandae voluptatibus a soluta, animi aut porro cum quos esse in? Impedit distinctio maxime modi dignissimos, voluptatem repellat ducimus at?</p>
+            </div>
+            <div>
+                <h2>Viagens Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus error veniam omnis voluptatem a sapiente fugit, dignissimos non sint eveniet commodi qui modi aliquid. Neque rerum numquam nemo praesentium?</p>
+            </div>
+         </section>
+         <!-- Seção do form -->
+          <section>
+            <h2>Se inscreva para receber novidades</h2>
+            <!-- fielset é uma tag usada para agrupar um formulário aplicando um estilo -->
+            <fieldset>
+                <legend>Formulário de Cadastro</legend>
+                <!-- form é uma tag de formulário -->
+                <form action="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+          </section>
+    </main>
+    <!-- footer vai ser a parte final "rodapé do site"-->
+     <footer></footer>
+</body>
+</html>
